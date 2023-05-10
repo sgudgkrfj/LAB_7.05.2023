@@ -6,3 +6,8 @@ def beebra(*args):
     print(sum(args)/ser)
 beebra(1,2,3,4,5)
 
+#2
+def ratatatata(*args):
+    lengs=[len(arg) for arg in args]
+    return max(lengs)
+print(ratatatata('egtyjtr','fae','wradwAEQFDW'))
