@@ -16,3 +16,12 @@ print(ratatatata('egtyjtr','fae','wradwAEQFDW'))
 def ggg(*args):
     return ' '.join(args)
 print(ggg("jvnkflkgj","kfjgntk"))
+
+#4
+def hhh(*args,**kwargs):
+    f1=(["Emanuel",23], ["Max",17],["Gregor",15])
+    dict={}
+    for key,value in f1:
+        dict[key]=value
+    print(dict)
+hhh()
