@@ -11,3 +11,8 @@ def ratatatata(*args):
     lengs=[len(arg) for arg in args]
     return max(lengs)
 print(ratatatata('egtyjtr','fae','wradwAEQFDW'))
+
+#3
+def ggg(*args):
+    return ' '.join(args)
+print(ggg("jvnkflkgj","kfjgntk"))
