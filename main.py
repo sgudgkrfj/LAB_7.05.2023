@@ -25,3 +25,14 @@ def hhh(*args,**kwargs):
         dict[key]=value
     print(dict)
 hhh()
+
+
+#5
+def combine_dicts(*args):
+    result={}
+    for dictionary in args:
+        result.update(dictionary)
+    return result
+dict1={"kjldkf":23}
+dict2={"fjgfk":2}
+print(combine_dicts(dict1,dict2))
